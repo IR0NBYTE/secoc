@@ -3,7 +3,7 @@
 This repository contains scripts to extract SecOC keys. See the related [blog post](https://icanhack.nl/blog/secoc-key-extraction/) for more details. Confirmed working by users on the following vehicles:
  - 2021-2023 RAV4 Prime
  - 2021 Sienna LE
-
+ - 2019 Yaris Hypbrid (France eddition) Contributed by me.
 
 ## Read this first
  - THIS IS AT YOUR OWN RISK
@@ -15,7 +15,7 @@ This repository contains scripts to extract SecOC keys. See the related [blog po
 With the vehicle completely off and the brake pedal not pressed, press the power button twice to get the car into "IGNITION ON" without the green `[READY]` light also being on. You can then run the script. Example:
 
 ```bash
-$ ./extract_keys.py
+$ ./extract_dataFlash.py
 Getting application versions...
  - APPLICATION_SOFTWARE_IDENTIFICATION (application) b'\x018965B4209000\x00\x00\x00\x00'
  - APPLICATION_SOFTWARE_IDENTIFICATION (bootloader)  b'\x01!!!!!!!!!!!!!!!!'
@@ -41,7 +41,7 @@ Verify payload...
 
 Trigger payload...
 
-Dumping keys...
+Dumping flash...
 100%|█████████████████████████████████████████████████| 448/448 [00:00<00:00, 15230.75it/s]
 
 ECU_MASTER_KEY    9432d3638b842d75e64db091fce5fa68
