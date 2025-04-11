@@ -1,9 +1,9 @@
 ## SecOC Key Extractor
 
-This repository contains scripts to extract SecOC keys. See the related [blog post](https://icanhack.nl/blog/secoc-key-extraction/) for more details. Confirmed working by users on the following vehicles:
+This repository contains scripts to extract SecOC keys. Confirmed working by users on the following vehicles:
  - 2021-2023 RAV4 Prime
  - 2021 Sienna LE
- - 2019 Yaris Hypbrid (France eddition) Contributed by me.
+ - 2019 Yaris Hybrid (France eddition).
 
 ## Read this first
  - THIS IS AT YOUR OWN RISK
